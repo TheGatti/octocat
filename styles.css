@@ -1,0 +1,47 @@
+body {
+  font: 13px helvetica,arial,freesans,clean,sans-serif;
+  font-weight: bold;
+}
+.octocat {
+  float: left;
+  margin: 10px;
+}
+.octocat img {
+    width: 400px;
+    display: block;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+.image-number:before{
+  content: "#"
+}
+.image-footer:before{
+  display: block;
+  content:"";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10.0px 10px 0 10px;
+  border-color: #e1e4e6 transparent transparent transparent;
+  position: absolute;
+  top: 0;
+  right: 8px;
+}
+.image-number{
+  font-weight: bold;
+  color: lightgrey;
+}
+.authors{
+  float: right;
+}
+.image-caption{
+  float:right;
+}
+.image-caption img{
+  width: 28px;
+  height: 28px;
+}
+.authors img{
+  float:right;
+  display: inline-block;
+}
